@@ -1,8 +1,10 @@
 import { Outlet } from "react-router-dom";
 
+import Styles from './App.module.css'
+
 function App() {
   return (
-    <div className="App">
+    <div className={Styles.app}>
       <h1>Github Finder</h1>
       <Outlet />
     </div>
